@@ -17,9 +17,9 @@ public class FileHelper {
     }
     public static void save2file(String data, String filepath){
         try {
-            System.out.println(filepath);
+//            System.out.println(filepath);
             File fout = new File(filepath);
-            System.out.println(filepath);
+//            System.out.println(filepath);
             if (!fout.exists()) fout.createNewFile();
             FileWriter fw = new FileWriter(fout);
             fw.write(data);
