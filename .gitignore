@@ -22,4 +22,6 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+
+### custom ###
 file_output/wind/*.csv

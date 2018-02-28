@@ -27,7 +27,7 @@ public class HttpHelper {
             in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
             String line = null;
             StringBuilder ret = new StringBuilder();
-            while((line = in.readLine()) != null) ret.append(line);
+            while((line = in.readLine()) != null) ret.append(line + '\n');
             return ret.toString();
         }catch (Exception e) {
             System.out.println("Get Error: " + e);
